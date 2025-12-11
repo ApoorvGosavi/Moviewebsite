@@ -99,9 +99,15 @@ h1 {
     color: black;
 } 
 
+p{
+    text align:center;
+    text-decoration:none;
+}
+
  @media (max-width: 768px) {
     .body{
         width: 100%;
         
     }
  }
+
