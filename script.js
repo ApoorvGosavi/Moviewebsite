@@ -86,7 +86,7 @@ function render() {
             <div class="buttons">
                 ${
                     movie.status === "watchlist"
-                        ? `<button class="watched-btn" onclick="updateStatus(${index}, 'watched')">Mark Watched</button>`
+                        ? `<button class="watched-btn" onclick="updateStatus(${index}, 'watched')">Watched</button>`
                         : `<button class="watch-btn" onclick="updateStatus(${index}, 'watchlist')">Move to Watchlist</button>`
                 }
                 <button class="delete-btn" onclick="deleteMovie(${index})">Delete</button>
